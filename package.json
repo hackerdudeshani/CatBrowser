@@ -1,0 +1,20 @@
+{
+    "name": "cat-browser",
+    "version": "1.0.0",
+    "description": "A custom Electron-based web browser",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . CatBrowser --platform=win32 --arch=x64 --out=dist --icon=C:\nitk\\cat_browser2.0\\icon\\Catlogo.ico --overwrite --debug"
+    },
+    "devDependencies": {
+        "electron": "^31.4.0",
+        "electron-packager": "^17.1.2"
+    },
+    "author": "Shani",
+    "license": "MIT",
+    "keywords": [],
+    "dependencies": {
+        "axios": "^1.7.4"
+    }
+}

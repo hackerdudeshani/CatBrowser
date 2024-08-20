@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Browser</title>
+    <style>
+        /* Include your CSS here to style the interface */
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cat Browser</h1>
+        <input type="text" id="search-input" placeholder="Search...">
+        <select id="search-engine">
+            <option value="Google">Google</option>
+            <option value="Bing">Bing</option>
+            <!-- Add more search engines as needed -->
+        </select>
+        <button id="search-button">Search</button>
+
+        <input type="file" id="file-input">
+        <button id="open-file-button">Open File</button>
+
+        <input type="text" id="security-check-url" placeholder="Enter URL for security check...">
+        <button id="check-security-button">Check Security</button>
+        <p id="security-result"></p>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
